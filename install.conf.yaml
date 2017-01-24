@@ -10,5 +10,16 @@
         create: true
     ~/.tmux.conf: tmux.conf
     ~/.Xresources: Xresources
-
+    ~/Monaco_Linux.ttf: Monaco_Linux.ttf
+    ~/clock: clock
+    ~/pipes: pipes
+    ~/.config/herbstluftwm/autostart:
+      path: config/herbstluftwm/autostart
+      create: true
+    ~/herbstluftwm/panel.sh: config/herbstluftwm/panel.sh
+    ~/herbstluftwm/theme.sh: config/herbstluftwm/theme.sh
+    ~/herbstluftwm/panel_theme.sh: config/herbstluftwm/panel_theme.sh
+    ~/.cheat/cheat: cheat/cheat
+    ~/.cheat/hc: cheat/hc
+    ~/.cheat/qutebrowser: cheat/qutebrowser
 
