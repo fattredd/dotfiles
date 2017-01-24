@@ -1,0 +1,12 @@
+
+Host rigidgear
+     HostName rigidgear.com
+     Port 21098
+     User rigigoqx
+     IdentityFile ~/.ssh/id_rsa
+
+Host pi
+     HostName 192.168.1.9
+     Port 22
+     User pi
+     IdentityFile ~/.ssh/id_rsa
