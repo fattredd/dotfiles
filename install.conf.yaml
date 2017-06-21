@@ -8,6 +8,7 @@
     ~/.ssh/config:
         path: ssh/config
         create: true
+        force: true
     ~/.tmux.conf: tmux.conf
     ~/.Xresources: Xresources
     ~/Monaco_Linux.ttf: Monaco_Linux.ttf
@@ -29,7 +30,10 @@
       create: true
       force: true
       path: herbstluftwm/panel_theme.sh
-    ~/.cheat/cheat: cheat/cheat
+    ~/.cheat/cheat:
+      path :cheat/cheat
+      create: true
+      force: true
     ~/.cheat/hc: cheat/hc
     ~/.cheat/qutebrowser: cheat/qutebrowser
 
