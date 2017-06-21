@@ -31,7 +31,7 @@
       force: true
       path: herbstluftwm/panel_theme.sh
     ~/.cheat/cheat:
-      path :cheat/cheat
+      path: cheat/cheat
       create: true
       force: true
     ~/.cheat/hc: cheat/hc
