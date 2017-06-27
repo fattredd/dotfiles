@@ -36,4 +36,5 @@
       force: true
     ~/.cheat/hc: cheat/hc
     ~/.cheat/qutebrowser: cheat/qutebrowser
-
+    ~/.mancolor.sh: mancolor.sh
+    /etc/issue.net: banner
