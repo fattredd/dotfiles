@@ -1,0 +1,7 @@
+ - aptget: [git, emacs, python, golang]
+ - yaourt:
+   - emacs
+   - python
+   - git
+   - go
+   

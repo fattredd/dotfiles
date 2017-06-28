@@ -37,4 +37,11 @@
     ~/.cheat/hc: cheat/hc
     ~/.cheat/qutebrowser: cheat/qutebrowser
     ~/.mancolor.sh: mancolor.sh
-    /etc/issue.net: banner
+    ~/.config/systemd/user/emacs.service:
+      path: emacs.service
+      force: true
+      create: true
+    
+- shell:
+  - git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+  - mkdir -p ~/go/src/github.com/ ~/go/bin

@@ -1,6 +1,6 @@
 
 export WINEARCH=win32
-export EDITOR="emacs -nw"
+export EDITOR="emacsclient -nw"
 export TERMINAL=lxterminal
 if [ -z "$SSH_CLIENT" ]; then
     export BROWSER=firefox;
@@ -10,8 +10,8 @@ fi
 # Gtk themes 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
-alias emacs='emacs -nw'
-alias emacsu='sudo emacs -nw'
+alias emacs='emacsclient -nw'
+alias emacsu='sudo emacsclient -nw'
 alias ls='ls --color=auto'
 alias music='ncmpcpp'
 alias irc='irssi -c irc.synirc.net -n fattredd'
