@@ -12,12 +12,10 @@ cd "${BASEDIR}"
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
 if command -v apt-get 2>&1 >/dev/null; then
-	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c 
-"packages.yaml" -p "dotbot_plugin_aptget/aptget.py"
+	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "package.yaml" -p "dotbot_plugin_aptget/aptget.py"
 fi
 if command -v yaourt 2>&1 >/dev/null; then
-	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c 
-"packages.yaml" -p "dotbot-yaourt/yaourt.py"
+	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "package.yaml" -p "dotbot-yaourt/yaourt.py"
 fi
 
 rm ~/.bashrc ~/.bash_logout
