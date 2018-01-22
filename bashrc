@@ -10,6 +10,7 @@ fi
 # Gtk themes 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
+alias ixio='curl -F "f:1=<-" ix.io'
 alias emacs='emacsclient -nw'
 alias emacsu='sudo emacsclient -nw'
 alias ls='ls --color=auto'
